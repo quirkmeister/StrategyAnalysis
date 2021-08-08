@@ -12,8 +12,9 @@
 Create a dashboard in Tableau for New York City's Citibike stakeholders that demonstrates the evolution of the system and strategic trends for future develoment.
 
 ### How to View the Visualization 
-Option 1: Download the "Citibike Analysis.twbx" file and open in Tableau. 
-Option 2: View the visualizaiton online at XXXXXXXX.
+Options:
+1. Download the "Citibike Analysis.twbx" file and open in Tableau. 
+2. View the visualizaiton online at [https://public.tableau.com/views/CitibikeDraft/TheStory?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link](https://public.tableau.com/views/CitibikeDraft/TheStory?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 
 ## Executive Summary
 <p align="center">
