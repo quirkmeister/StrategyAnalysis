@@ -11,7 +11,7 @@ Create a dashboard in Tableau for New York City's Citibike stakeholders that dem
 
 ### How to View the Visualization 
 Options:
-1. Download the "Citibike Analysis.twbx" file and open in Tableau. 
+1. Download the ["Citibike Dashboard.twbx"](https://github.com/kennethcandersen/Citibike-Strategic-Analysis-Tableau/blob/main/Citibike%20Dashboard.twbx) file and open in Tableau. 
 2. View the visualizaiton online at [Tableau's website](https://public.tableau.com/views/CitibikeDashboard_16283828004620/TheStory?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 
 ## Executive Summary
@@ -25,12 +25,6 @@ Options:
 4. The percentage of Short-Term Customers has been increasing the last few years to over 25% of the overall user base. Short-Term Customer use is highly seasonal, likely representing summer time tourism.
 5. The average rider age is now 41 years old, versius 38 in 2013. The 2 age groups that increased in overall rider percentage are from ages 50- 59 and 60-69. This could be good news (the program is attracting a diversity of ages) or potentially bad news (the user base is aging and the program is failing to attract younger riders). More evaluation is needed. 
 6. Rider intensity is greatest in Central to Southern Manhattan. All top-20 stations are located there. Although the system has grown substantially over the years, Manhattan remains the main hub of ridership. 
-
-## Original data Sources 
-The original data can be found in the following links: 
-- [**Ecobici CSV**](https://www.ecobici.cdmx.gob.mx/es/informacion-del-servicio/open-data): ECOBICI trip information by month. Files can be downloaded as CSVs. 
-- [**Ecobici API**](https://www.ecobici.cdmx.gob.mx/es/informacion-del-servicio/open-data): The ECOBICI API has information about the 480 stations ( station name, station id, location). 
-- [**Open Data Mexico City: Colonias**](https://datos.cdmx.gob.mx/dataset/coloniascdmx): Information about the neighborhoods in Mexico City. We used the "coloniascdmx.csv" file to trace the Colonia boundaries on our map visualizations. 
 
 ## ETL process 
 #### Extract
