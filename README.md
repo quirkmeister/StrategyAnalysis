@@ -1,7 +1,5 @@
 # Citibike Strategic Analysis Dashboard in Tableau
 
-# Bikeshare Program Strategic Growth Analysis & Visualization
-
 <p align="center">
 <img src="https://github.com/kennethcandersen/Citibike-Strategic-Analysis-Tableau/blob/main/citibike_dashboard_tour.gif" width="900"/>
 </p>
@@ -14,7 +12,7 @@ Create a dashboard in Tableau for New York City's Citibike stakeholders that dem
 ### How to View the Visualization 
 Options:
 1. Download the "Citibike Analysis.twbx" file and open in Tableau. 
-2. View the visualizaiton online at [https://public.tableau.com/views/CitibikeDraft/TheStory?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link](https://public.tableau.com/views/CitibikeDraft/TheStory?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
+2. View the visualizaiton online at [Tableau's website](https://public.tableau.com/views/CitibikeDashboard_16283828004620/TheStory?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 
 ## Executive Summary
 <p align="center">
