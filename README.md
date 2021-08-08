@@ -32,9 +32,9 @@ Options:
 - Raw CSV data files were downloaded from Citibike's open data website at https://www.citibikenyc.com/system-data. Usage data was available by month. 
 #### Transform
 - All of the monthly CSV files were cleaned and concatenated (merged) using Python and Pandas in Jupyter Notebook in order to export one master data file. It had 122 million rows and weighed 22GB. 
-- Given the size of the dataset, I created a subset of one in hundred, resulting in a sample of 1.2 million data points and weighed 250MB.
-- That file is still too large to store in GitHub. You can view a "one in thousand" dataset just to see how the data was structured, although this file was not used for the visualization. 
-- 
+- Given the size of the dataset, I created a subset of one in hundred, resulting in a 1% sample size of 1.2 million data points and a file that weighed 250MB.
+- The sample data set file is still too large to store in GitHub. You can view a "one in thousand" dataset just to see how the data was structured, although this file was not used for the visualization. 
+
 #### Load
 - Data was loaded into Tableau as one master CSV file and the dashboard was created. 
 
