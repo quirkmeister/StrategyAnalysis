@@ -16,6 +16,9 @@ Option 1: Download the "Citibike Analysis.twbx" file and open in Tableau.
 Option 2: View the visualizaiton online at XXXXXXXX.
 
 ## Executive Summary
+<p align="center">
+<img src="https://github.com/kennethcandersen/Citibike-Strategic-Analysis-Tableau/blob/main/executive_summary.png" width="900"/>
+</p>
 
 ## Original data Sources 
 The original data can be found in the following links: 
