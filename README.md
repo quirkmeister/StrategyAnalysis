@@ -19,6 +19,7 @@ Options:
 <img src="https://github.com/kennethcandersen/Citibike-Strategic-Analysis-Tableau/blob/main/executive_summary.png" width="900"/>
 </p>
 
+#### Conclusions
 1. Overall ridership was growing until the pandemic, although the growth rate YoY has been decreasing since 2016. 
 2. The average number of rides per station remained relatively stable, despite the aggressive expansion in stations.
 3. Women remain underrepresented among ridership. But there is progress: in 2020 women represented 28.4% of riders, versus 20% in 2013.  In peak months it reaches over 30%.
