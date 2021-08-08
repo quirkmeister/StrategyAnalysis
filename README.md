@@ -20,12 +20,12 @@ Options:
 </p>
 
 #### Conclusions
-1. Overall ridership was growing until the pandemic, although the growth rate YoY has been decreasing since 2016. 
-2. The average number of rides per station remained relatively stable, despite the aggressive expansion in stations.
-3. Women remain underrepresented among ridership. But there is progress: in 2020 women represented 28.4% of riders, versus 20% in 2013.  In peak months it reaches over 30%.
-4. The percentage of Short-Term Customers has been increasing the last few years to over 25% of the overall user base. Short-Term Customer use is highly seasonal, likely representing summer time tourism.
-5. The average rider age is now 41 years old, versius 38 in 2013. The 2 age groups that increased in overall rider percentage are from ages 50- 59 and 60-69. This could be good news (the program is attracting a diversity of ages) or potentially bad news (the user base is aging and the program is failing to attract younger riders). More evaluation is needed. 
-6. Rider intensity is greatest in Central to Southern Manhattan. All top-20 stations are located there. Although the system has grown substantially over the years, Manhattan remains the main hub of ridership. 
+1. *Overall ridership was growing until the pandemic,* although the growth rate YoY has been decreasing since 2016. 
+2. *The average number of rides per station remained relatively stable,* despite the aggressive expansion in stations.
+3. *Women remain underrepresented among ridership.* But there is progress: in 2020 women represented 28.4% of riders, versus 20% in 2013.  In peak months it reaches over 30%.
+4. *The percentage of Short-Term Customers has been increasing the last few years to over 25% of the overall user base.* Short-Term Customer use is highly seasonal, likely representing summer time tourism.
+5. *The average rider age is now 41 years old, versius 38 in 2013.* The 2 age groups that increased in overall rider percentage are from ages 50- 59 and 60-69. This could be good news (the program is attracting a diversity of ages) or potentially bad news (the user base is aging and the program is failing to attract younger riders). More evaluation is needed. 
+6. *Rider intensity is greatest in Central to Southern Manhattan.* All top-20 stations are located there. Although the system has grown substantially over the years, Manhattan remains the main hub of ridership. 
 
 ## ETL process 
 #### Extract
