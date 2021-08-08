@@ -3,36 +3,21 @@
 # Bikeshare Program Strategic Growth Analysis & Visualization
 
 <p align="center">
-<img src="https://github.com/kennethcandersen/Bikeshare-Program-Strategic-Growth-Analysis-And-Visualization/blob/main/static/Images/ecobici_tour_gif.gif" width="900"/>
+<img src="https://github.com/kennethcandersen/Citibike-Strategic-Analysis-Tableau/blob/main/citibike_dashboard_tour.gif" width="900"/>
 </p>
-
-## Team Members
-* [Kenneth Andersen](https://github.com/kennethcandersen) 🚴‍♂️ 
-* [Uriel Arriaga](https://github.com/Momoyactly) 🚴‍♂️
-* [Salvador del Cos](https://github.com/Fispit) 🚴‍♂️
-* [Mariana Geffroy López](https://github.com/mgeffroy) 🚴‍♀️
-* [Gustavo Maldonado](https://github.com/MBGUS) 🚴‍♂️
 
 ## Project summary 
 
 ### Project Goal
-Apply data analysis & visualization tools to observe the evolution of Mexico City's bike-share program "ECOBICI" and provide recommendations for its future development and growth.
+Create a dashboard in Tableau for New York City's Citibike stakeholders that demonstrates the evolution of the system and strategic trends for future develoment.
 
-### What is Ecobici? 
-ECOBICI is the public bicycle system of Mexico City that has integrated bikes as an essential part of mobility, aimed at inhabitants of the capital and tourists. Since its launch in 2010, Ecobici have provided over 71 million rides in central Mexico City: convenient, sustainable transportation that reduces traffic and pollution and promotes health.
+### How to View the Visualization 
+Option 1: Download the "Citibike Analysis.twbx" file and open in Tableau. 
+Option 2: View the visualizaiton online at XXXXXXXX.
 
-What can you do? Become a rider! Do you live in Mexico City and don't have your ecobici membership yet? [Sign up here](https://www.ecobici.cdmx.gob.mx/es/registro/inicio)
+## Executive Summary
 
-## How to run the app
-2 options:
-1. **[Fully deployed online version](https://dataviz-ecobici.herokuapp.com/)**: [https://dataviz-ecobici.herokuapp.com/](https://dataviz-ecobici.herokuapp.com/)
-2. Run locally:
-     1. Clone this repository
-     2. In the main repository folder, run "python3 appy.py" in your terminal
-     3. Open [http://127.0.0.1:5000/](http://127.0.0.1:5000/) in a browser and the website should launch. 
-     4. Browse the website for data visualizations and additional information about the data and team. 
-
-## Original data Sources 📁 
+## Original data Sources 
 The original data can be found in the following links: 
 - [**Ecobici CSV**](https://www.ecobici.cdmx.gob.mx/es/informacion-del-servicio/open-data): ECOBICI trip information by month. Files can be downloaded as CSVs. 
 - [**Ecobici API**](https://www.ecobici.cdmx.gob.mx/es/informacion-del-servicio/open-data): The ECOBICI API has information about the 480 stations ( station name, station id, location). 
@@ -40,25 +25,18 @@ The original data can be found in the following links:
 
 ## ETL process 
 #### Extract
-- Different datasets concerning our topic were located. Historical data was downloaded in CSV format from the Ecobici website, one file per month.
-- Data for each station was downloaded using an the Ecobici API from their website.
+- Raw CSV data files were downloaded from Citibike's open data website at https://www.citibikenyc.com/system-data. Usage data was available by month. 
 #### Transform
-- Python was used to unify all of the CSV files (10 years of monthly data) Resulting in 71 million lines. Another python script was used to clean the dataset.
-- Given the size of the dataset, we created a subset of one in hundred, resulting in a sample of 710,000 data points.
+- All of the monthly CSV files were cleaned and concatenated (merged) using Python and Pandas in Jupyter Notebook in order to export one master data file. It had 122 million rows and weighed 22GB. 
+- Given the size of the dataset, I created a subset of one in hundred, resulting in a sample of 1.2 million data points and weighed 250MB.
+- That file is still too large to store in GitHub. You can view a "one in thousand" dataset just to see how the data was structured, although this file was not used for the visualization. 
+- 
 #### Load
-- Data was imported into Postgres.
-- Queries regarding stations, general trips, routes and demographics were created.
-- Each query was parsed using flask and SQL alchemy and was fed into the webpage using D3.
+- Data was loaded into Tableau as one master CSV file and the dashboard was created. 
 
-## Languages used 🖥️
-- SQL 
-- Javascript
-- HTML 
-- CSS 
-- Python
-
-## Analysis 📈
-We decided to analyze demographic data of ECOBICI users as well as most common routes in the ECOBICI network. Different years were analyzed. 
+## Languages & Tools Used
+- Python, Pandas and Jupyter Notebook for the data extraction & cleanup 
+- Tableau Public for the visualization
 
 ## Preview 🚲
 You can move freely around the webpage, so we invite you to explore the data! You can use the navbar, get different information to populate, graphs, tables and maps or whatever you prefer! Have fun!
