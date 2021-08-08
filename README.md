@@ -1,4 +1,4 @@
-# Citibike Strategic Analysis Dashboard in Tableau
+# Citibike Strategic Growth Analysis Dashboard in Tableau
 
 <p align="center">
 <img src="https://github.com/kennethcandersen/Citibike-Strategic-Analysis-Tableau/blob/main/citibike_dashboard_tour.gif" width="900"/>
